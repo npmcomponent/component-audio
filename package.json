@@ -1,27 +1,19 @@
 {
-  "name": "audio-component",
+  "name": "component-audio",
   "description": "Sexy audio player (requires audio tag support)",
   "version": "0.1.0",
   "keywords": [
-    "audio"
+    "audio",
+    "player",
+    "music"
+  ],
+  "styles": [
+    "audio.css"
   ],
   "dependencies": {
-    "domify": "0.1.0",
-    "event-component": "*",
-    "autoscale-canvas": "*"
+    "component-domify": "git://github.com/npmcomponent/component-domify.git",
+    "component-event": "git://github.com/npmcomponent/component-event.git",
+    "component-autoscale-canvas": "git://github.com/npmcomponent/component-autoscale-canvas.git"
   },
-  "component": {
-    "scripts": {
-      "audio/index.js": "index.js",
-      "audio/progress.js": "progress.js",
-      "audio/template.js": "template.js"
-    },
-    "styles": [
-      "audio.css"
-    ]
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/component/audio.git"
-  }
+  "license": "MIT"
 }

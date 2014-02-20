@@ -3,8 +3,8 @@
  * Module dependencies.
  */
 
-var domify = require('domify')
-  , event = require('event')
+var domify = require('component-domify')
+  , event = require('component-event')
   , html = require('./template')
   , Progress = require('./progress');
 

@@ -3,7 +3,7 @@
  * Module dependencies.
  */
 
-var autoscale = require('autoscale-canvas');
+var autoscale = require('component-autoscale-canvas');
 
 /**
  * Expose `Progress`.
